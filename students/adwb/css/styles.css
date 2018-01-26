@@ -1,0 +1,58 @@
+h1 {
+    font-size: 3em;
+}
+
+header {
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+    width: 100%;
+    line-height: 2em;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav li {
+    background-color: gray;
+    display: inline-block;
+    width: 31%;
+}
+
+img {
+    width: 200px;
+}
+
+table th {
+    background-color: darkgreen;
+}
+
+table td {
+    background-color: green;
+}
+
+div.container {
+    
+}
+
+div.image {
+    width: 720px;
+    height: 720px;
+    background: url("http://r.ddmcdn.com/s_f/o_1/cx_462/cy_245/cw_1349/ch_1349/w_720/APL/uploads/2015/06/caturday-shutterstock_149320799.jpg");
+}
+
+div span {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: medium;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 605px 16px 0px 16px;
+}
