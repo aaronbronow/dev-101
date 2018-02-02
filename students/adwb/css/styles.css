@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     font-size: 3em;
 }
@@ -25,9 +29,9 @@ nav li {
     width: 31%;
 }
 
-img {
+/*img.thumbnail {
     width: 200px;
-}
+}*/
 
 table th {
     background-color: darkgreen;
@@ -55,4 +59,38 @@ div span {
     color: #FFFFFF;
     text-transform: uppercase;
     padding: 605px 16px 0px 16px;
+}
+
+div.gallery {
+    width: 80%;
+    border: 2px solid black;
+    margin: auto auto;
+    padding: 2em;
+}
+
+img.thumbnail {
+    width: 200px;
+    margin: 10px;
+}
+
+.gallery .buttons {
+    font-size: 2em;
+}
+
+.gallery #left {
+    color: #FFFFFF;
+}
+
+.container4 {
+    width: 80%;
+    margin: auto auto;
+    border: 1px solid gray;
+}
+
+.container4 img.thumbnail {
+    float: left;
+}
+
+button .fas {
+    color: green;
 }
